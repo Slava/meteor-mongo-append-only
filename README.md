@@ -1,3 +1,11 @@
+# mongo-append-only
+
+A package for Meteor that optimizes listening to changes in a collection where no records can change or get removed, only added. This limitation allows more optimizations, removing the memory overhead completely, and reducing the CPU consumption by 50%.
+
+This package was developed as part of my contracting work with the company named "Homework" and published with their agreement.
+
+---
+
 # mongo
 
 The `mongo` package is a [full stack database
